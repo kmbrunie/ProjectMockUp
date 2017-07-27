@@ -34,7 +34,9 @@ namespace ProjectMockUp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            CaseInputPage frm = new CaseInputPage();
+            this.Hide();
+            frm.Show();
         }
     }
 }

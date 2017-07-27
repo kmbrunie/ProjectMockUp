@@ -192,9 +192,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(82, 364);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 13);
+            this.label12.Size = new System.Drawing.Size(101, 13);
             this.label12.TabIndex = 11;
-            this.label12.Text = "Division No.:";
+            this.label12.Text = "Division No./Judge:";
             // 
             // label13
             // 
@@ -297,6 +297,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(167, 20);
             this.textBox1.TabIndex = 23;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -332,6 +333,7 @@
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // comboBox1
             // 
